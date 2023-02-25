@@ -1,0 +1,1 @@
+cmd_/home/useke/develop/kernel/hello-1/Module.symvers := sed 's/ko$$/o/' /home/useke/develop/kernel/hello-1/modules.order | scripts/mod/modpost -m -a  -o /home/useke/develop/kernel/hello-1/Module.symvers -e -i Module.symvers   -T -
